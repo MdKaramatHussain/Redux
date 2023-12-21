@@ -1,0 +1,14 @@
+Redux => 
+	it is a predictable state container JS app
+	->Redux is a pttern and liberary for manageing and updating application state
+	->it emit action to update state with rules ensuring that the state can only be updated in a perticular way
+
+Redux mainly work in three principle
+->Shop			->Redux Store	-> A store holds the state of our application
+->Action(BUY_CAKE)	->Action	->Describe what happened (what to do)
+->Manish->		->Reducer	-> Tie store and action together 
+
+*action=> Action is a pure JS object that have type property.
+*Reducer=> A reducer is a central place where state modification takes place{shopkeeper}
+	(state=initialState, action )=>updatedState
+*ActionCreator()=>It is a simple JS function which return action
